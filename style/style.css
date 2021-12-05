@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700;900&display=swap');
+
+html {
+    box-sizing: border-box;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 20px;
+}
+
+.head {
+    padding-bottom: 135px;
+    margin-bottom: 30px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.logo,
+.links {
+    flex: 1 0 0;
+}
+
+nav ul {
+    text-align: end;
+}
+nav ul li a{
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+.header_content {
+    margin-top: 40px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 38px;
+    font-weight: 900px;
+    margin-bottom: 70px;
+}
+
+h3 {
+    font-size: 28px;
+    margin-bottom: -10px;
+}
+
+span.description {
+    font-size: 18px;
+}
+.cap_width,
+.footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.head,
+footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+}
+
+.your_highness_mrs_flex {
+    display: flex;
+    flex-flow: row wrap;
+ }
+
+ .your_highness_separates {
+     justify-content: space-between;
+ }
+
+.header_content_left,
+.header_content_right {
+    flex: 1 0 0;
+    min-width: 300px;
+}
+
+.header_content_left {
+    padding-right: 60px;
+}
+
+.header_content img {
+    width: 100%;
+}
+
+.links ul li{
+    display: inline-flex;
+}
+
+.center {
+    text-align: center;
+}
+
+.items {
+    gap: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    margin-bottom: 80px;
+}
+.item {
+    flex: 1 0 200px;
+    overflow: hidden;
+}
+
+span.caption {
+    display:block;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+span.caption img {
+    width: 350px;
+    margin-left: -40px;
+}
+
+button {
+    margin-top: 1.5rem;
+    padding: 10px 35px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 4px;;
+    border: none;
+}
+
+.cpa button {
+    background-color: #f9faf8;
+    color: #3882f6;
+}
+.mid_section {
+    background-color: #e5e7eb;
+}
+
+.testimonial {
+    font-style:italic;
+    color: #1f2937;
+    padding: 90px 18%;
+}
+
+.cpa {
+    background: #3882f6;
+    margin: 120px auto;
+    border-radius: 5px;
+    text-align: left;
+    align-items: center;
+    justify-content: space-around;
+    color: #f9faf8;
+    height: 200px;
+}
+
+
